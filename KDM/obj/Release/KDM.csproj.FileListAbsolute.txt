@@ -1,0 +1,23 @@
+D:\ASD Project\KDM\KDM\bin\Release\KDM.exe.config
+D:\ASD Project\KDM\KDM\bin\Release\KDM.exe
+D:\ASD Project\KDM\KDM\bin\Release\KDM.pdb
+D:\ASD Project\KDM\KDM\obj\Release\KDM.csprojResolveAssemblyReference.cache
+D:\ASD Project\KDM\KDM\obj\Release\KDM.Form1.resources
+D:\ASD Project\KDM\KDM\obj\Release\KDM.Form3.resources
+D:\ASD Project\KDM\KDM\obj\Release\KDM.Form4.resources
+D:\ASD Project\KDM\KDM\obj\Release\KDM.Properties.Resources.resources
+D:\ASD Project\KDM\KDM\obj\Release\KDM.csproj.GenerateResource.Cache
+D:\ASD Project\KDM\KDM\obj\Release\KDM.exe
+D:\ASD Project\KDM\KDM\obj\Release\KDM.pdb
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\bin\Release\KDM.exe.config
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\bin\Release\KDM.exe
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\bin\Release\KDM.pdb
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.csproj.AssemblyReference.cache
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.Form1.resources
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.Form3.resources
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.Form4.resources
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.Properties.Resources.resources
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.csproj.GenerateResource.cache
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.csproj.CoreCompileInputs.cache
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.exe
+H:\доки\Labs\Данилевич В.В. ПИ-19а\Файлы проекта\KDM\obj\Release\KDM.pdb

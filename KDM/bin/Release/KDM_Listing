@@ -1,0 +1,801 @@
+Вызов конструктора form1;
+Инициализация формы :KDM.Form1, Text: Graph;
+Инициализация списка vertexList;
+Инициализация списка edgeList;
+Инициализация Bitmap c параметрами Width=750 и Height=500
+Инициализация Graphics c параметрами bitmap=System.Drawing.Bitmap;
+Инициализация blackPen c параметрами Color.Black;
+Инициализация redPen c параметрами Color.Red;
+Инициализация orGraphPen c параметрами Color.Black;
+Инициализация font c параметрами Arial и emSize=11;
+Инициализация Brush c параметрами Brushes.Black;
+Создание объекта класса GraphDrawing с параметрами pictureBox1.Width=750, pictureBox1.Height=500;
+Установка типа Image в pictureBox1;
+Инициализация списка files;
+Вызов функции UploadingFiles;
+if(Directory.Exists(directory));
+False;
+Вывод сообщения об ошибке;Срабатывание ивента открытьToolStripMenuItem_Click;
+if (openFileDialog1.ShowDialog()==DialogResult.OK);
+Создание потока StreamReader и связывание его с файлом:H:\доки\Labs\Данилевич В.В. ПИ-19а\Проект\Полный_двудольный_граф.txt;
+Работа цикла while ((line = reader.ReadLine()) != null), заполнение матицы Amatrix;
+Закрытие файлового потока;
+Вывод названия файла в fileDataGridView;
+Срабатывание ивента fileDataGridView_CurrentCellChanged;
+Вызов функции ReadOnFile с параметром fileDataGridView.CurrentCell.RowIndex =0;
+Cоздание файлового потока и связывание его с файлом H:\доки\Labs\Данилевич В.В. ПИ-19а\Проект\Полный_двудольный_граф.txt;
+ while ((line = reader.ReadLine()) != null) ;
+True;
+Инициализация двумерного массива Amatrix;
+Присваивание NumberOfVertices= 5
+Начало работы цикла for (int j = 0; j < lines.Length; j++), создание матрицы смежности;
+ Закрытие файлового потока, который свзяан с файломH:\доки\Labs\Данилевич В.В. ПИ-19а\Проект\Полный_двудольный_граф.txt;
+Вызов функции dataGridView1.Rows.Clear;
+Вызов функции  dataGridView1.Columns.Clear;
+Вызов функции  vertexList.Clear;
+Вызов функции  edgeList.Clear;
+Вызов функции  graphDrawing.ClearPicture;
+Вызов функции   CalculationOfCoordinates;
+Вызов функции GraphCheck;
+Начало работы циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++), проверка графа на принадлежность к орграфам;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++) завершена;
+Возвращения значения false - граф неоренторванный;
+Работа цикла for (int i = 0; i < NumberOfVertices; i++), вычисление координат вершин и добавление их в vertexList;
+if (!OrGraph);
+True;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = i; j < NumberOfVertices; j++), создание рёбер и добавление их в edgeList;
+Вызов функции graphDrawing.DrawGraph с параметрами vertexList, edgeList,  OrGraph;
+if (!OrGhraph);
+True;
+Работа цикла for (int i = 0; i < edge.Count; i++);
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+Работа цикла for (int i = 0; i < vertex.Count; i++);
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Работа цикла for (int i = 0; i < vertex.Count; i++) завершена;Вызов функции pictureBox1.Invalidate;
+Вызов функции dataGridView1.Rows.Clear;
+Вызов функции dataGridView1.Columns.Clear;
+Вызов функции vertexList.Clear;
+Вызов функции edgeList.Clear;
+Вызов функции  graphDrawing.ClearPicture;
+Вызов функции GraphCheck;
+Начало работы циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++), проверка графа на принадлежность к орграфам;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++) завершена;
+Возвращения значения false - граф неоренторванный;
+Работа цикла for (int i = 0; i < NumberOfVertices; i++), вычисление координат вершин и добавление их в vertexList;
+if (!OrGraph);
+True;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = i; j < NumberOfVertices; j++), создание рёбер и добавление их в edgeList;
+Вызов функции graphDrawing.DrawGraph с параметрами vertexList, edgeList,  OrGraph;
+if (!OrGhraph);
+True;
+Работа цикла for (int i = 0; i < edge.Count; i++);
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+Работа цикла for (int i = 0; i < vertex.Count; i++);
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Работа цикла for (int i = 0; i < vertex.Count; i++) завершена;Вызов функции pictureBox1.Invalidate;
+Срабатывание ивента правильнаяРаскраскаToolStripMenuItem_Click;
+Вызов функции graphDrawing.CorrectСoloring с параметрами vertexList, Amatrix;
+Вызов функции pictureBox1.Invalidate;
+
+----------------------------------------------------------------
+          Правильная раскраска            
+
+Объявление списка solidBrushList с цветами для закрашивания вершин;
+Создание цвета и установка его для вершины 1. Вершина 1 имеет цвет:Color [A=255, R=242, G=53, B=231];
+Вызов функции DrawVertex для закрашивания вершины 1;
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+bool newColor=true - переменная для определения цвета последующих вершин;
+Добавляем в список solidBrushList новый цвет для вершин, смежных с вершиной 1; Новый цвет:Color [A=255, R=79, G=62, B=196]
+if (OrGraph) - если граф ориентированный;
+False - не ориентированный;
+Проверка смежности остальных вершин с 1-ой;
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++);
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+Установка для смежной вершины 2 . Вершина 2 имеет цвет:Color [A=255, R=79, G=62, B=196];
+Вызов функции DrawVertex для закрашивания вершины 2
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+False - вершина не смежна;
+Присваиваем цвет вершины 1 вершине 3. Вершина 3 имеет цвет:Color [A=255, R=242, G=53, B=231];
+Вызов функции DrawVertex для закрашивания вершины 3
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+Установка для смежной вершины 4 . Вершина 4 имеет цвет:Color [A=255, R=79, G=62, B=196];
+Вызов функции DrawVertex для закрашивания вершины 4
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+False - вершина не смежна;
+Присваиваем цвет вершины 1 вершине 5. Вершина 5 имеет цвет:Color [A=255, R=242, G=53, B=231];
+Вызов функции DrawVertex для закрашивания вершины 5
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++) завершена;
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++);
+Проход по всем вершинам, кроме 1-ой;
+i=1
+--Вершина 2
+Проверка смежности с следующими вершинами:
+j=2
+->Вершина 3
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+j=3
+->Вершина 4
+if (matrix[0, j] == 1) - если вершины смежны;
+False  - вершины не смежные;
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 2 определены. newColor = true - требуется новый цвет;
+i=2
+--Вершина 3
+Проверка смежности с следующими вершинами:
+j=3
+->Вершина 4
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+False  - вершины не смежные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 3 определены. newColor = true - требуется новый цвет;
+i=3
+--Вершина 4
+Проверка смежности с следующими вершинами:
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 4 определены. newColor = true - требуется новый цвет;
+i=4
+--Вершина 5
+Проверка смежности с следующими вершинами:
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 5 определены. newColor = true - требуется новый цвет;
+
+      Алгоритм правильной раскраски завершил свою работу       
+---------------------------------------------------------------------------
+Срабатывание ивента открытьToolStripMenuItem_Click;
+if (openFileDialog1.ShowDialog()==DialogResult.OK);
+Создание потока StreamReader и связывание его с файлом:H:\доки\Labs\Данилевич В.В. ПИ-19а\Проект\Эйлеров_граф.txt;
+Работа цикла while ((line = reader.ReadLine()) != null), заполнение матицы Amatrix;
+Закрытие файлового потока;
+Вывод названия файла в fileDataGridView;
+Вызов функции dataGridView1.Rows.Clear;
+Вызов функции dataGridView1.Columns.Clear;
+Вызов функции vertexList.Clear;
+Вызов функции edgeList.Clear;
+Вызов функции  graphDrawing.ClearPicture;
+Вызов функции GraphCheck;
+Начало работы циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++), проверка графа на принадлежность к орграфам;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+if (Amatrix[i, j] != Amatrix[j, i]);
+False;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = 0; j < NumberOfVertices; j++) завершена;
+Возвращения значения false - граф неоренторванный;
+Работа цикла for (int i = 0; i < NumberOfVertices; i++), вычисление координат вершин и добавление их в vertexList;
+if (!OrGraph);
+True;
+Работа циклов for (int i = 0; i < NumberOfVertices; i++) и for (int j = i; j < NumberOfVertices; j++), создание рёбер и добавление их в edgeList;
+Вызов функции graphDrawing.DrawGraph с параметрами vertexList, edgeList,  OrGraph;
+if (!OrGhraph);
+True;
+Работа цикла for (int i = 0; i < edge.Count; i++);
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+if (edge[i].v1 == edge[i].v2);
+False;
+Вызов функции graphics.DrawLine;
+Работа цикла for (int i = 0; i < vertex.Count; i++);
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Вызов функции DrawVertex;
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+Работа цикла for (int i = 0; i < vertex.Count; i++) завершена;Вызов функции pictureBox1.Invalidate;
+Срабатывание ивента правильнаяРаскраскаToolStripMenuItem_Click;
+Вызов функции graphDrawing.CorrectСoloring с параметрами vertexList, Amatrix;
+Вызов функции pictureBox1.Invalidate;
+
+----------------------------------------------------------------
+          Правильная раскраска            
+
+Объявление списка solidBrushList с цветами для закрашивания вершин;
+Создание цвета и установка его для вершины 1. Вершина 1 имеет цвет:Color [A=255, R=103, G=27, B=94];
+Вызов функции DrawVertex для закрашивания вершины 1;
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+bool newColor=true - переменная для определения цвета последующих вершин;
+Добавляем в список solidBrushList новый цвет для вершин, смежных с вершиной 1; Новый цвет:Color [A=255, R=58, G=82, B=93]
+if (OrGraph) - если граф ориентированный;
+False - не ориентированный;
+Проверка смежности остальных вершин с 1-ой;
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++);
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+Установка для смежной вершины 2 . Вершина 2 имеет цвет:Color [A=255, R=58, G=82, B=93];
+Вызов функции DrawVertex для закрашивания вершины 2
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+False - вершина не смежна;
+Присваиваем цвет вершины 1 вершине 3. Вершина 3 имеет цвет:Color [A=255, R=103, G=27, B=94];
+Вызов функции DrawVertex для закрашивания вершины 3
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+Установка для смежной вершины 4 . Вершина 4 имеет цвет:Color [A=255, R=58, G=82, B=93];
+Вызов функции DrawVertex для закрашивания вершины 4
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+if (matrix[0, j] == 1) - если вершины смежны;
+False - вершина не смежна;
+Присваиваем цвет вершины 1 вершине 5. Вершина 5 имеет цвет:Color [A=255, R=103, G=27, B=94];
+Вызов функции DrawVertex для закрашивания вершины 5
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++) завершена;
+Работа циклов  for (int i=1;i<vertex.Count;i++), for(int j=i;j<vertex.Count;j++);
+Проход по всем вершинам, кроме 1-ой;
+i=1
+--Вершина 2
+Проверка смежности с следующими вершинами:
+j=2
+->Вершина 3
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+j=3
+->Вершина 4
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+True;
+if (newColor) - требуется определить новый цвет для вершин, смежных с вершиной 2
+True;
+Вызов функции CheckColor - создание нового цвета;
+
+++++++++++++++++++++++++++++++++++++++++
+Начало работы функции CheckColor;
+Создание переменной SolidBrush newColor и присваивание ей цвета Color [A=255, R=12, G=220, B=69]Работа циклa  for (int i=0; i<vertex.Count;i++) - проверка на существование такого цвета в списке solidBrushList;
+ if (vertex[i].solidbrush == newColor) - если такой цвет уже есть в списке solidBrushList;
+False;
+i=0
+ if (vertex[i].solidbrush == newColor) - если такой цвет уже есть в списке solidBrushList;
+False;
+i=1
+ if (vertex[i].solidbrush == newColor) - если такой цвет уже есть в списке solidBrushList;
+False;
+i=2
+ if (vertex[i].solidbrush == newColor) - если такой цвет уже есть в списке solidBrushList;
+False;
+i=3
+ if (vertex[i].solidbrush == newColor) - если такой цвет уже есть в списке solidBrushList;
+False;
+i=4
+Работа циклa  for (int i=0; i<vertex.Count;i++) завершена;
+return newColor - возвращаем новый, уникальный цвет;
+++++++++++++++++++++++++++++++++++++++++
+
+newColor = false - цвет определён;
+Вершина 4 имеет цвет:Color [A=255, R=12, G=220, B=69];
+Вызов функции DrawVertex для закрашивания вершины 4
+
+++++++++++++++++++++++++++++++++++++++++
+Вызов функции graphics.FillEllipse;
+Вызов функции  graphics.DrawEllipse;
+if (number.Length == 3);
+False;
+if (number.Length == 2);
+False;
+if (number.Length == 1);
+True -   point = new PointF(x - 7, y - 9);
+Вызов функции  graphics.DrawString;
+++++++++++++++++++++++++++++++++++++++++
+
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 2 определены. newColor = true - требуется новый цвет;
+i=2
+--Вершина 3
+Проверка смежности с следующими вершинами:
+j=3
+->Вершина 4
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+False  - вершины не смежные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 3 определены. newColor = true - требуется новый цвет;
+i=3
+--Вершина 4
+Проверка смежности с следующими вершинами:
+j=4
+->Вершина 5
+if (matrix[0, j] == 1) - если вершины смежны;
+True;
+if (vertex[j].solidbrush == vertex[i].solidbrush) - если у них одинаковые цвета;
+False  - цвета разные;
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 4 определены. newColor = true - требуется новый цвет;
+i=4
+--Вершина 5
+Проверка смежности с следующими вершинами:
+Работа циклa for(int j=i;j<vertex.Count;j++) завершена - цвета для смежных вершин вершине 5 определены. newColor = true - требуется новый цвет;
+
+      Алгоритм правильной раскраски завершил свою работу       
+---------------------------------------------------------------------------
+Срабатывание ивента Form1_FormClosing;
+
